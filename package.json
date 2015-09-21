@@ -10,13 +10,6 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/suzan2go",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "bootstrap": "~3.3.4",
     "jquery": "^2.1.4",

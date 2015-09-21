@@ -1,6 +1,6 @@
 var gulp = require("gulp");
-var browserify = require('browserify')
-var babelify = require('babelify')
+var browserify = require('browserify');
+var babelify = require('babelify');
 var react = require('gulp-react');
 var source = require('vinyl-source-stream')
 var using = require('gulp-using');  // ファイル名の出力
