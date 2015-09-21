@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redminent</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <div class="navbar-brand">redminent</div>
+        </div>
+        <ul class="nav nav-tabs">
+          <li id="menu-post" class="active"><a href="#create_issue_view" data-toggle="tab">New Issue</a></li>
+          <li id="menu-setting"><a href="#setting_view" data-toggle="tab">Setting</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tab-content container">
+      <div role="tabpanel" class="tab-pane active" id="create_issue_view"> 
+        <script src="js/create_issue_view.js"> </script>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="setting_view">
+        <script src="js/setting_view.js"> </script>
+      </div>
+    </div>
+
+  </body>
+</html>

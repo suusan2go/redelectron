@@ -1,0 +1,40 @@
+{
+  "name": "redminent",
+  "version": "0.0.0",
+  "authors": [
+    "suzan2go <ksuzuki180@gmail.com>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "redmine"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/suzan2go",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5",
+    "react": "^0.13.3",
+    "redux": "^1.0.0",
+    "react-redux": "0.8.2",
+    "redux-thunk": "^0.1.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.0",
+    "gulp": "^3.8.11",
+    "gulp-react": "^3.0.1",
+    "gulp-using": "0.0.1",
+    "react-tools": "^0.13.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  }
+}
